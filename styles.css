@@ -62,8 +62,13 @@ ul{
       font-size: 18px;
       font-weight:600;
     }
+    @media(max-width:767px) {
+      .header .headerlinkes{
+        display: none;
+      }
+    }
     .header i{
-      font-size: 20px;
+      font-size: 30px;
     }
     .header .headerlinkes a:hover{
       color: #6D1600;
@@ -75,7 +80,7 @@ ul{
     }
     .section1 .top h4{
         font-size: 64PX;
-        margin: 0;
+        margin: 140px 0;
     }
     .section1 .top p{
       font-size: 20px;
@@ -495,8 +500,94 @@ ul{
   background-color: #6D1600;
 }
     /* <!-- Section 5 --> */
+    .section5{
+      padding-bottom: 60px;
+      text-align: center;
+  
+    }
+    .section5 .title{
+    gap: 8px;
+    text-align: center;
+  }
+  .section5 .title p{
+    opacity: 0.56;
+    color: #282A3A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+  }
+  .section5 .title h5{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: -6px;
+    
+  }
+  .section5 .boxes{
+    display: flex;
+    gap: 25px;
+  }
+  @media(max-width:767px){
+    .section5 .boxes{
+      flex-direction: column;
+    }
+  }
+  .section5 .boxes .box{
+    border-radius: 0px 96px  0 40px;
+    border: 1px solid grey;
+    padding: 10px;
+  }
+  .section5 .boxes .box img{
+    max-width: 100%;
+  }
+  .section5 .boxes .box .info{
+    display: flex;
+    justify-content: space-between;
+    font-family: inter;
+  }
+  .section5 .boxes .box p{
+    font-size: 24px;
+    font-family: Plus jakarta sans;
+    text-align: left;
+  }
+  .section5 .boxes .box span {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: inter;
+  }
+  .section5 .boxes .box span i{
+    color: #6D1600;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .section5  .button{
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+  }
+  .section5  .button input{
+    width: 300px;
+    height: 73px;
+    background-color: #6D1600;
+    margin-bottom: 20px;
+    color: #ffff;
+    font-size: 24px;
+    font-family: regular;
+    border-radius: 0 36px;
+    
+}
 
-
+  .section5 .button i{
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    font-size: 26px;
+    transform: rotate(129deg);
+    color: #ffff;
+}
 
     /* <!-- Section 6 -->  */
 
