@@ -203,6 +203,11 @@ ul{
         justify-content: space-between;
         border-radius: 7rem;
         margin-bottom: 2rem;
+        
+    }
+    .choices p:hover{
+      background-color: white;
+        border-radius: 1rem;
     }
 
     .choices * {
@@ -213,7 +218,7 @@ ul{
         margin: 5px;
         text-align: center;
         line-height: 2rem;
-        
+        transition: 0.3s;
     }
 
     .highlight-choice {
