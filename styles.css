@@ -53,7 +53,7 @@ ul{
     .header{
       display: flex;
       justify-content: space-between;
-      padding: 15px;
+      padding: 20px;
       border-bottom: 1px solid grey;
       background-color: #FFFFFF;
     }
