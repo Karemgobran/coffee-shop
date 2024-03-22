@@ -49,12 +49,16 @@ ul{
     }
   }
 
-
+    .head{
+      position: fixed;
+      width: 100%;
+      z-index: 100;
+    }
     .header{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       padding: 20px;
-      border-bottom: 1px solid grey;
+      box-shadow: 1px 2px 14px gray;
       background-color: #FFFFFF;
     }
     .header .headerlinkes a{
