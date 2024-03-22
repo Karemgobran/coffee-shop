@@ -94,6 +94,7 @@ ul{
     .section1 .top .button{
       display: inline-block;
       position: relative;
+      padding-bottom: 105px;
     }
     .section1 .top .button input{
       width: 300px;
