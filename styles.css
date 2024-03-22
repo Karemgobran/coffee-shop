@@ -50,11 +50,12 @@ ul{
   }
 
 
-    /* <!-- Header --> */
     .header{
       display: flex;
       justify-content: space-between;
       padding: 15px;
+      border-bottom: 1px solid grey;
+      background-color: #FFFFFF;
     }
     .header .headerlinkes a{
       padding-left: 15px;
@@ -99,8 +100,12 @@ ul{
       font-size: 24px;
       font-family: regular;
       border-radius: 0 36px;
+      border: none;
       
   }
+  .section1 .top .button input:hover{
+  background-color:#5c2a1d ;
+}
 
     .section1 .top .button i{
       position: absolute;
@@ -375,6 +380,8 @@ ul{
         border-bottom-left-radius: 1rem;
         margin-top: 2rem;
 
+    }.s3-left-button:hover{
+      background-color:#5c2a1d ;
     }
 
     .s3-right {
@@ -577,7 +584,11 @@ ul{
     font-size: 24px;
     font-family: regular;
     border-radius: 0 36px;
+    border: none;
     
+}
+.section5  .button input:hover{
+  background-color:#5c2a1d ;
 }
 
   .section5 .button i{
@@ -714,7 +725,7 @@ ul{
 
     }
     .section6 .container .right .top a:hover{
-      color: #d13b16;
+      color: #5c2a1d;
     }
     .section6 .container .right .top .Social{
       display: flex;
@@ -791,5 +802,5 @@ ul{
     }
     
     .section6 .container .right .bottom form input[type="submit"]:hover{
-      background-color: #aa3416;
+      background-color: #5c2a1d;
     }
